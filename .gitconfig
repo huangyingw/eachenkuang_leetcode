@@ -2,7 +2,7 @@
     url = https://github.com/EachenKuang/LeetCode.git
     fetch = +refs/heads/*:refs/remotes/origin/*
 [remote "github"]
-    url = git@github.com:huangyingw/LeetCode.git
+    url = git@github.com:huangyingw/eachenkuang_leetcode.git
     fetch = +refs/heads/*:refs/remotes/github/*
 [push]
     remote = github
