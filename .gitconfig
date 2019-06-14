@@ -1,13 +1,13 @@
-[remote "origin"]
+[remote "EachenKuang"]
     url = https://github.com/EachenKuang/LeetCode.git
-    fetch = +refs/heads/*:refs/remotes/origin/*
-[remote "github"]
+    fetch = +refs/heads/*:refs/remotes/EachenKuang/*
+[remote "origin"]
     url = git@github.com:huangyingw/eachenkuang_leetcode.git
-    fetch = +refs/heads/*:refs/remotes/github/*
+    fetch = +refs/heads/*:refs/remotes/origin/*
 [push]
-    remote = github
-[gsync]
     remote = origin
+[gsync]
+    remote = EachenKuang
     branch = master
 [merge]
 	allow = true
