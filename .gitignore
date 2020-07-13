@@ -14,4 +14,4 @@ tests/
 venv
 
 
-
+*.gdio.diff
